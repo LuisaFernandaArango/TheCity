@@ -1,0 +1,28 @@
+<ion-view view-title="Ver detalle" class="degradado"  >
+<div class="bar bar-header">
+	    <a class="button button-icon icon ion-ios-arrow-back" href="#/tab/lugar"></a>
+	    <div class="h1 title letraMaven">Más información</div>
+	</div>
+<ion-content class="Body">
+	<br>
+	<br>
+	<br>
+
+	<div><h2 class="letraAilerons">{{lugar.nombre}}</h2></div>
+	<div>
+		<img class="icono3" ng-src="{{lugar.img}}">
+		<div  class="parrafo">
+			<h5 class="letraMaven">{{lugar.info}}</h5>
+		</div>
+		<div class="parrafo" >
+			<h6 class="letraMaven icon ion-paper-airplane"> {{lugar.direccion}}</h6>
+			<h6 class="letraMaven icon ion-ios-telephone"> {{lugar.tel}}</h6>
+			<h6 class="letraMaven icon ion-android-mail"> {{lugar.correo}}</h6>
+		</div>
+		
+		
+	</div>
+	<div id="mapa" data-tap-disabled="true" ></div>
+	
+</ion-content>
+</ion-view>

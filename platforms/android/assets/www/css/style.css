@@ -1,0 +1,114 @@
+/* Empty. Add your own CSS if you like */
+html, body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+@font-face{
+   font-family: "Ailerons";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../font/Ailerons/Ailerons-Typeface.otf);
+}
+@font-face{
+   font-family: "MavenPro";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../font/MavenPRO/MavenProRegular.otf) ;
+}
+#mapa{
+	height: 40%;
+    width: 100%;
+    margin: 0px auto;
+}
+.mapa, #mapa2{
+	height: 100%;
+    width: 100%;
+     margin: 0px auto;
+    
+}
+.login{
+	
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+
+}
+.degradado {
+background: -webkit-linear-gradient(left top,  #752C84 , #D21D5D); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom left, #752C84, #D21D5D); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom left, #752C84, #D21D5D); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom left, #752C84 , #D21D5D); /* Standard syntax */
+}
+.degradadoButton{
+background: -webkit-linear-gradient(left top,  #D21D5D , #752C84); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom left, #D21D5D, #752C84); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom left, #D21D5D, #752C84); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom left, #D21D5D , #752C84); /* Standard syntax */	
+}
+
+.imglogo{
+	width: 40%;
+}
+.letraAilerons{
+	 font-family: "Ailerons";
+	 color: white !important;
+}
+.letraMaven{
+	font-family: "MavenPro";
+	color:white;
+}
+
+.parrafo{
+	
+	background-color: #501646; 	
+	margin-bottom: 0px;
+	text-align : justify;
+	padding-left: 15px;
+  	padding-right: 15px;
+}
+
+.letraAilerons2{
+	 font-family: "Ailerons";
+	 color: white !important;
+    
+    
+}
+.text_encima{
+	position: absolute;
+	  padding-top: 2%;
+	font-family: "Ailerons";
+	 color: white !important;
+	 width: 100%;
+	/*Da un opaco de 90%*/
+	 background-color:#000;
+    opacity:0.8;
+   filter:alpha(opacity=20);
+
+}
+.centrar{
+	text-align: center;
+}
+.home{
+	width: 0px auto;
+	text-align: center;
+}
+.icono{
+	width: 50%;
+}
+.icono2{
+	width: 100%;
+	height: 100%;
+}
+.icono3{
+	height: 100%;
+	width: 90%;
+	
+}
+
+.submenu{
+  width: 100%;
+  border: rgb(107, 37, 118) 1px solid;
+  border-radius: 10px;
+}
+

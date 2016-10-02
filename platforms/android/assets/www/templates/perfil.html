@@ -1,0 +1,25 @@
+
+<ion-view view-title="Perfil" class="degradado">
+	<div class="bar bar-header">
+	    <div class="h1 title letraMaven">Perfil</div>
+	    <a class="button button-clear button-royal letraMaven" href="#/configuracion">Edit</a>
+	</div>
+
+ <ion-content>   
+ <br>
+	<div class="list card">
+	    <a class="item item-avatar" >
+	      <img ng-src="{{usuario[0].picture}}">
+	      <h2 class="letraAilerons">{{nombre}}</h2>	 
+	    </a>
+	</div>
+	<div class="list card">
+		<h2 class="letraAilerons">Teen Points {{usuario[0].teenpoint}}</h2>
+
+	</div>
+	<div class="item"><h4 class="letraAilerons">Lugares que te gustaron</h4></div>
+
+
+
+ </ion-content>   
+</ion-view>

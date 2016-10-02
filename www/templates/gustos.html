@@ -1,0 +1,24 @@
+<ion-view view-title="gustos" class="degradado">
+	<ion-content>
+		 <div class="bar bar-header">
+		
+		    <a class="button button-icon icon ion-ios-arrow-back"  ng-click="myGoBack()"> Back</a> 
+		    <div class="h1 title letraMaven">Tus intereses</div>
+		 </div>
+		<br>
+		<br>	  
+		<h2 class="letraAilerons">Seleciona tus intereses</h2>
+		<div  ng-repeat="gusto in lista">
+		  <div class="row" ng-if="$even">
+			  <div  class="col col-50 item item-full " ng-click="addgusto(gusto)" ng-repeat="gusto in [lista[$index],lista[$index + 1]]">
+			    <img class="icono" ng-src="{{gusto.picture}}">
+			 	<h2 class="letraAilerons"> {{gusto.nombre}} </h2> 
+			     <i class="icon ion-android-checkbox-outline" ng-if="gusto.added == true"></i>
+			  </div>
+			</div>    
+		</div> 
+		   <a class="button button-full icon-right ion-chevron-right button-calm " ng-click="gustosdeuser()" >Continuar</a>
+	
+	</ion-content>
+
+</ion-view>

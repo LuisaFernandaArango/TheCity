@@ -1,0 +1,23 @@
+
+<ion-view view-title="Iconos"  class="degradado">
+	<div class="bar bar-header">
+	    <a class="button button-icon icon ion-ios-arrow-back" ng-click="myGoBack()"> Back</a>
+	    <div class="h1 title letraMaven">Icono</div>	   
+	</div>
+
+ <ion-content>   
+	<br><br><br><br>
+	
+	<ion-radio class="list" ng-repeat="icono in lista"   ng-value="icono.url" ng-model="data.clientSide">		
+		 
+		    <img class="item icono " ng-src="{{icono.url}}">	
+		     <i class="icon ion-android-checkbox-outline" ng-if="icono.added == true"></i>   
+		
+		
+	</ion-radio>
+	 <a class="button button-full icon-right ion-chevron-right button-calm " ng-click="iconoPerfil()" >Aceptar</a>
+
+   
+
+ </ion-content>   
+</ion-view>

@@ -1,0 +1,38 @@
+<ion-view view-title="Teen Atlas" class="login degradado">
+<ion-content class="login"> 
+	<div class="list">
+		<img class="imglogo2" src="img/logo.png">
+	</div>
+	<div class="list">
+		<h2 class="letraAilerons"> registrate</h2>
+	    <label class="item item-input item-floating-label">
+		    <input class="letraAilerons" type="text" placeholder="Nombre" ng-model="user.nombre">
+		</label>
+		
+		<label class="item item-input item-floating-label">
+		    <input class="letraAilerons" type="text" placeholder="Correo Electronico" ng-model="user.correo">
+		</label>
+		<label class="item item-input item-floating-label">
+		    <input class="letraAilerons" type="password" placeholder="Contraseña" ng-model="user.pass">
+		</label>
+		<label class="item item-input item-floating-label">
+		    <input class="letraAilerons" type="password" placeholder="Confirmar Contraseña">
+		</label>	   
+	 	<button class="button degradadoButton letraAilerons" ng-click="registro()">registrarme
+		</button>
+	</div>	  
+	<div class="redes">
+		<button class="button button-assertive ion-social-googleplus letraAilerons" ng-click="googleSignIn()">	inicia sesión con google
+		</button>
+		<!--	<button class="button button-full button-positive ion-social-facebook" ng-click="facebookSignIn()"> 
+		</button>		-->
+		<button class="button icon-left ion-chevron-left button-royal letraMaven" ng-click="iniciar()">
+		 ¿Ya tienes una cuenta? <strong>Inicia sesión</strong>
+		</button>
+		
+	</div>	
+</ion-content> 		
+</ion-view>   
+		
+
+

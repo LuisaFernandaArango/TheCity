@@ -1,0 +1,27 @@
+<!--
+Create tabs with an icon and label, using the tabs-calm style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+    
+
+<ion-tabs class="tabs-striped tabs-background-calm tabs-color-light ">
+
+  <!-- Dashboard Tab -->
+  <!-- Home Tab tabs-icon-top tabs-color-active-calm -->
+ <ion-tab icon-off="ion-ios-home" icon-on="ion-ios-home" href="#/tab/lugar">
+      <ion-nav-view name="tab-lugar"></ion-nav-view>
+    </ion-tab>    
+
+  <!-- perfil Tab -->   
+ 
+
+    <ion-tab icon-off="ion-ios-location" icon-on="ion-ios-location" href="#/tab/sitioCerca">
+    <ion-nav-view name="tab-sitioCerca"></ion-nav-view>
+  </ion-tab>
+
+   <ion-tab icon-off="ion-ios-person" icon-on="ion-ios-person" href="#/tab/perfil">
+    <ion-nav-view name="tab-perfil"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>

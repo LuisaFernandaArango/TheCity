@@ -1,0 +1,12 @@
+{
+  "name": "teenatlas",
+  "app_id": "66cd5781",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
